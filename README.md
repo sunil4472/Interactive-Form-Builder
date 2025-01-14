@@ -24,12 +24,11 @@ Follow these steps to run the project locally:
 - 📘 Basic knowledge of React
 
 ### Steps
-
 1. 🔗 Clone the repository:
-   ```bash
-   git clone 
-   cd 
-   ```
+    ```bash
+    git clone https://github.com/sunil4472/Interactive-Form-Builder.git
+    cd Interactive-Form-Builder
+    ```
 
 2. 📦 Install dependencies:
    ```bash
