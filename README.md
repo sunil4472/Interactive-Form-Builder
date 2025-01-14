@@ -95,15 +95,17 @@ Follow these steps to run the project locally:
 
 ## 🌐 Live Demo
 
-A live demo of the project can be accessed [here](#).
+A live demo of the project can be accessed [here](https://interactive-form-builder-delta.vercel.app/).
 
 ---
 
 ## ⏳ Time Spent
 
-Approximately **4-5 hours** were spent on:
-
+Approximately **1-2 hours** were spent on:
 - 🏗️ Setting up the project
 - 🖊️ Implementing the form and validation
 - 📝 Writing this README
+
+
+
 
