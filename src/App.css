@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2rem;
+  color: #2c3e50;
+}
+
+/* Form Container */
+form {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+/* Error Messages */
+span {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Radio Buttons */
+.radio-group {
+  margin: 10px 0;
+}
+
+.radio-group div {
+  margin: 5px 0;
+}
+
+/* Buttons */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Preview Mode */
+.preview-mode {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.preview-mode button {
+  width: auto;
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.preview-mode button:hover {
+  background-color: #1e8449;
+}
+
+/* Response Visualization */
+.response-visualization {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.response-visualization h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 0.9rem;
+  }
+}
